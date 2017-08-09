@@ -6,7 +6,7 @@
 
 ### 2. List pojmenovat "CZC denní akce"
 
-### 3. Do polí přidat toto vždy bez počátečních uvozovek
+### 3. Do polí přidat toto vždy následující
 
 **A1** https://www.czc.cz/
 
@@ -23,7 +23,7 @@ Obchod | URL | akčního zboží |	Původní cena |	Nová cena |	Datum zápisu
 
 <img src="http://jpeg.cz/images/2017/08/09/QHJzC.png">
 
-### 5. Přes Nástroje > Ecditor skriptů vložit skript
+### 5. Přes Nástroje > Editor skriptů vložit skript
 
 ### 6. Nastavit spouštěč přes ikonu "hodin" na:
 aktualizace - Řízený časem - Počítadlo dní - 9:00-10:00
