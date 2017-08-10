@@ -32,7 +32,7 @@ function notification() {
   var predmet = "Dnešní akční nabídka CZC";
   var body = "<strong>Odkaz na zboží: </strong> "+ urlProdukt +"<br /> \
 <strong>Původní cena: </strong>"+ puvodniCena +"<br /> \
-<h3>Akční cena:"+ akcniCena +"</h3><br /> \
+<h3>Akční cena: "+ akcniCena +"</h3><br /> \
 ";
-  GmailApp.sendEmail(emaily,predmet,body, {htmlBody: body, replyTo: "davkral@outlook.cz"});
+  GmailApp.sendEmail(emaily,predmet,body, {htmlBody: body});
 }
