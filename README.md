@@ -26,4 +26,10 @@ Obchod | URL | akčního zboží |	Původní cena |	Nová cena |	Datum zápisu
 ### 5. Přes Nástroje > Editor skriptů vložit skript
 
 ### 6. Nastavit spouštěč přes ikonu "hodin" na:
-aktualizace - Řízený časem - Počítadlo dní - 9:00-10:00
+aktualizace - Řízený časem - Počítadlo dní - 8:00-9:00
+
+### 7. Vytvořit v Tabulce list "Emaily"
+Do sloupce A pod sebe vypsat emaily, kam se mají notifikace zasílat
+
+### 8. Nastavit spouštěč přes ikonu "hodin" na:
+notification - Řízený časem - Počítadlo dní - 9:00-10:00
