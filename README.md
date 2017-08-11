@@ -1,4 +1,4 @@
-# Hlídač dení akcí českých eshopů (Alza.cz a CZC.cz)
+# Hlídač denních akcí českých eshopů (Alza.cz a CZC.cz)
 
 ## Postup
 
