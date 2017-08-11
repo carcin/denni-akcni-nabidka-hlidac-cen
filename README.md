@@ -23,13 +23,27 @@ Obchod | URL | akčního zboží |	Původní cena |	Nová cena |	Datum zápisu
 
 <img src="http://jpeg.cz/images/2017/08/09/QHJzC.png">
 
-### 5. Přes Nástroje > Editor skriptů vložit skript
+### 5. Přidat další list a pojmenovat jej "Alza denní nabídka"
 
-### 6. Nastavit spouštěč přes ikonu "hodin" na:
-aktualizace - Řízený časem - Počítadlo dní - 8:00-9:00
+### 6. Do polí přidat toto vždy následující
 
-### 7. Vytvořit v Tabulce list "Emaily"
-Do sloupce A pod sebe vypsat emaily, kam se mají notifikace zasílat
+**A1** https://www.alza.cz/trhakdne
+
+**B1** =importxml(A1;"//div[@class='c2']//@href")
+
+**C1** =importxml(A1;"//span[@class='cprice']")
+
+**D1** =importxml(A1;"//span[@class='price']")
+
+**E1** =NOW()
+
+### 7. Přes Nástroje > Editor skriptů vložit skript
 
 ### 8. Nastavit spouštěč přes ikonu "hodin" na:
-notification - Řízený časem - Počítadlo dní - 9:00-10:00
+aktualizace - Řízený časem - Počítadlo dní - 7:00-8:00
+
+### 9. Vytvořit v Tabulce list "Emaily"
+Do sloupce A pod sebe vypsat emaily, kam se mají notifikace zasílat
+
+### 10. Nastavit spouštěč přes ikonu "hodin" na:
+notification - Řízený časem - Počítadlo dní - 8:00-9:00
