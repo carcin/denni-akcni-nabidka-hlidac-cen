@@ -1,4 +1,4 @@
-# Czech Computer CZC.cz hlídač cen denní akce na hlavní stránce
+# Hlídač dení akcí českých eshopů (Alza.cz a CZC.cz)
 
 ## Postup
 
